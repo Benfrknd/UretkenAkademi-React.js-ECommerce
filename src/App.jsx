@@ -12,7 +12,7 @@ export default function App() {
   }, []);
 
   const handleLogin = () => {
-    const user = { id: 1, name: "Tuğberk" };
+    const user = { id: 1, name: "Furkan" };
     setUser(user);
     localStorage.setItem("user", JSON.stringify(user));
     navigate("/");
